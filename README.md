@@ -1,6 +1,6 @@
-SALES INSIGHTS DATA ANALYSIS PROJECT
+**SALES INSIGHTS DATA ANALYSIS PROJECT**
 
- Overview:
+** Overview:**
 This project involves analyzing sales data using **MySQL** for data management and **Power BI** for interactive reporting. The goal is to uncover insights from transactional data, such as total sales, customer behavior, product performance, and sales trends.
 
  THE PDF FILE FOR DATA VISUALIZATION:  [📥 Download mysalesreport.pdf](./mysalesreport.pdf)
