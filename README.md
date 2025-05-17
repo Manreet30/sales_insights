@@ -12,7 +12,8 @@ This project involves analyzing sales data using **MySQL** for data management a
 - **SQL** – for writing queries to extract and manipulate data
 - **Power Query M** – for transforming data inside Power BI
 
-  **STEPS:**
+ 
+ **STEPS:**
   1.Data import: First import the dataset by running a .sql dump file.
   
   2.Data cleaning: Once connected to MySQL from Power BI, I cleaned and prepared the data by removing unnecessary columns,renaming columns,data type corrections etc.
@@ -23,6 +24,8 @@ This project involves analyzing sales data using **MySQL** for data management a
   4.Data Modelling: Then,I crreated the relationships between the tables by setting cardinality and direction (one-to-many, single direction) for proper filtering.
   
   5.Data Visualization (Power BI Reports): I did data visualization using Power BI to create bar graphs and line charts to analyse the data.
+
+
 
 
 **SALES REPORT SUMMARY:**
