@@ -1,66 +1,83 @@
-**SALES INSIGHTS DATA ANALYSIS PROJECT**
 
-**Overview:**
+# 📊 Sales Insights Data Analysis Project
 
-This project involves analyzing sales data using **MySQL** for data management and **Power BI** for interactive reporting. The goal is to uncover insights from transactional data, such as total sales, customer behavior, product performance, and sales trends.
+## Overview
 
-**THE PDF FILE FOR DATA VISUALIZATION:**  [📥 Download mysalesreport.pdf](./mysalesreport.pdf)
- 
-**Tech Stack:**
-- **MySQL Server 8.0** – for data storage and querying
-- **Power BI** – for building and publishing data visualizations
-- **SQL** – for writing queries to extract and manipulate data
-- **Power Query M** – for transforming data inside Power BI
+This project analyzes sales data using **MySQL** for data management and **Power BI** for interactive reporting. The objective is to extract actionable insights from transactional data, focusing on total sales, customer behavior, product performance, and sales trends over time.
 
- 
- **STEPS:**
-  1.Data import: First import the dataset by running a .sql dump file.
-  
-  2.Data cleaning: Once connected to MySQL from Power BI, I cleaned and prepared the data by removing unnecessary columns,renaming columns,data type corrections etc.
-  
-  3.Data Transformation: Created Calculated Columns or Measures,examples: Total Sales = SUM(transactions[sales_amount])
-                                                                          Normalized Sales = SUM(transactions[norm_amount])
-  
-  4.Data Modelling: Then,I crreated the relationships between the tables by setting cardinality and direction (one-to-many, single direction) for proper filtering.
-  
-  5.Data Visualization (Power BI Reports): I did data visualization using Power BI to create bar graphs and line charts to analyse the data.
+---
+### THE PDF FILE FOR DATA VISUALIZATION:  [📥 Download mysalesreport.pdf](./mysalesreport.pdf)
 
 
+## 🔍 Project Scope & Workflow
 
+### 1. Data Import  
+- Imported the dataset by running a `.sql` dump file into MySQL Server 8.0.
 
-**SALES REPORT SUMMARY:**
-This report presents key insights from the sales performance data across customers, markets, and products over the period from 2017 to 2020. The analysis highlights areas of strength, growth trends, and potential opportunities for improvement.
+### 2. Data Cleaning  
+- Connected Power BI to the MySQL database.  
+- Cleaned and prepared data by removing unnecessary columns, renaming fields, and correcting data types.
 
-1. Key Revenue Contributors
-    -Electricalsara Stores emerged as the top-performing customer, generating ₹413 million in revenue—substantially ahead of the next tier of customers.
+### 3. Data Transformation  
+- Created calculated columns and measures in Power BI, e.g.:  
+  - **Total Sales** = `SUM(transactions[sales_amount])`  
+  - **Normalized Sales** = `SUM(transactions[norm_amount])`
 
-    -Other significant contributors include Electricalslytical, Excel Stores, Premium Stores, and Nixon, each bringing in between ₹44M–₹50M.
+### 4. Data Modelling  
+- Defined relationships between tables using appropriate cardinality (one-to-many) and filter directions for accurate reporting.
 
-     -The steep revenue drop after the top customer suggests a heavy reliance on one account.
+### 5. Data Visualization  
+- Built interactive Power BI reports with bar graphs, line charts, and other visuals to highlight sales insights.
 
-2. Sales Volume Leaders
-     -In terms of sales quantity, Electricalsara Stores also leads with 0.65 million units sold, followed by Premium Stores at 0.28 million units.
+---
 
-      -The alignment of both high revenue and volume further underlines Electricalsara Stores as a strategic customer.
+## 📈 Sales Report Summary
 
-3. Market Performance
-   
-   -Delhi NCR is the most lucrative market, with ₹520 million in revenue and nearly 1 million units sold, making it the dominant geographical segment.
+### Key Revenue Contributors  
+- **Electricalsara Stores** is the top customer, generating ₹413 million in revenue, significantly ahead of others.  
+- Other key customers: Electricalslytical, Excel Stores, Premium Stores, Nixon (₹44M–₹50M each).  
+- Revenue concentration indicates reliance on a single major account.
 
-   -Mumbai and Ahmedabad follow with moderate sales performance.
+### Sales Volume Leaders  
+- Electricalsara Stores leads in volume with 0.65 million units sold.  
+- Premium Stores follows with 0.28 million units.  
+- High revenue aligns with high volume, reinforcing strategic importance.
 
-   -Emerging or underperforming markets such as Bhubaneswar, Bengaluru, and Patna show limited sales and may benefit from targeted marketing and distribution 
-   efforts.
+### Market Performance  
+- **Delhi NCR** dominates with ₹520 million revenue and ~1 million units sold.  
+- Mumbai and Ahmedabad show moderate performance.  
+- Emerging/underperforming markets: Bhubaneswar, Bengaluru, Patna may need focused marketing.
 
-4. Product Insights
-   
-   -One unnamed product (listed as “(Blank)”) accounts for ₹469 million in revenue, suggesting either a data categorization issue or an overwhelmingly successful 
-    SKU needing clear identification.
+### Product Insights  
+- An unnamed product listed as “(Blank)” accounts for ₹469 million, indicating potential data issues or a highly successful SKU needing clarity.  
+- Other top products: Prod040, Prod159, Prod065, Prod018 (₹16M–₹24M revenue each).
 
-   -Other top-selling products include Prod040, Prod159, Prod065, and Prod018, which range from ₹16M–₹24M in revenue.
+### Revenue Growth Trends  
+- Observed steady upward trend from 2018 to 2020, suggesting effective sales strategies and market engagement.  
+- Monthly-level patterns require deeper analysis.
 
-5. Revenue Growth Trends
-    
-   -A consistent upward trend is observed from 2018 to 2020, indicating steady business growth over time.
+---
 
-   -While detailed monthly patterns are not visible in this summary, the overall trajectory points to effective sales strategies and market engagement.
+## 🛠️ Technology Stack
+
+- **MySQL Server 8.0** — data storage and querying  
+- **Power BI** — data visualization and report creation  
+- **SQL** — data extraction and manipulation  
+- **Power Query M** — data transformation inside Power BI
+
+---
+
+## 📥 Report
+
+You can download the detailed visualization report here:  
+[mysalesreport.pdf](./mysalesreport.pdf)
+
+---
+
+## 👩‍💻 Author
+
+**Manreet Kaur**  
+GitHub: [Manreet30](https://github.com/Manreet30)
+
+---
+
