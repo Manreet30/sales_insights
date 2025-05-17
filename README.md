@@ -25,20 +25,20 @@ This project involves analyzing sales data using **MySQL** for data management a
   5.Data Visualization (Power BI Reports): I did data visualization using Power BI to create bar graphs and line charts to analyse the data.
 
 
-**Sales Report Summary:**
+**SALES REPORT SUMMARY:**
 This report presents key insights from the sales performance data across customers, markets, and products over the period from 2017 to 2020. The analysis highlights areas of strength, growth trends, and potential opportunities for improvement.
 
 1. Key Revenue Contributors
-  -Electricalsara Stores emerged as the top-performing customer, generating ₹413 million in revenue—substantially ahead of the next tier of customers.
+    -Electricalsara Stores emerged as the top-performing customer, generating ₹413 million in revenue—substantially ahead of the next tier of customers.
 
-  -Other significant contributors include Electricalslytical, Excel Stores, Premium Stores, and Nixon, each bringing in between ₹44M–₹50M.
+    -Other significant contributors include Electricalslytical, Excel Stores, Premium Stores, and Nixon, each bringing in between ₹44M–₹50M.
 
-  -The steep revenue drop after the top customer suggests a heavy reliance on one account.
+     -The steep revenue drop after the top customer suggests a heavy reliance on one account.
 
 2. Sales Volume Leaders
-  -In terms of sales quantity, Electricalsara Stores also leads with 0.65 million units sold, followed by Premium Stores at 0.28 million units.
+     -In terms of sales quantity, Electricalsara Stores also leads with 0.65 million units sold, followed by Premium Stores at 0.28 million units.
 
-  -The alignment of both high revenue and volume further underlines Electricalsara Stores as a strategic customer.
+      -The alignment of both high revenue and volume further underlines Electricalsara Stores as a strategic customer.
 
 3. Market Performance
    
