@@ -1,18 +1,19 @@
 **SALES INSIGHTS DATA ANALYSIS PROJECT**
 
-** Overview:**
+**Overview:**
+
 This project involves analyzing sales data using **MySQL** for data management and **Power BI** for interactive reporting. The goal is to uncover insights from transactional data, such as total sales, customer behavior, product performance, and sales trends.
 
- THE PDF FILE FOR DATA VISUALIZATION:  [📥 Download mysalesreport.pdf](./mysalesreport.pdf)
+**THE PDF FILE FOR DATA VISUALIZATION:**  [📥 Download mysalesreport.pdf](./mysalesreport.pdf)
  
-Tech Stack:
+**Tech Stack:**
 - **MySQL Server 8.0** – for data storage and querying
 - **Power BI** – for building and publishing data visualizations
 - **SQL** – for writing queries to extract and manipulate data
 - **Power Query M** – for transforming data inside Power BI
 
-  STEPS:
-  1.Data import:First import the dataset by running a .sql dump file.
+  **STEPS:**
+  1.Data import: First import the dataset by running a .sql dump file.
   
   2.Data cleaning: Once connected to MySQL from Power BI, I cleaned and prepared the data by removing unnecessary columns,renaming columns,data type corrections etc.
   
@@ -24,7 +25,7 @@ Tech Stack:
   5.Data Visualization (Power BI Reports): I did data visualization using Power BI to create bar graphs and line charts to analyse the data.
 
 
-Sales Report Summary:
+**Sales Report Summary:**
 This report presents key insights from the sales performance data across customers, markets, and products over the period from 2017 to 2020. The analysis highlights areas of strength, growth trends, and potential opportunities for improvement.
 
 1. Key Revenue Contributors
